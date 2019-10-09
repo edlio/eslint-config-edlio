@@ -1,6 +1,7 @@
 # eslint-config-edlio
 
-Edlio's shareable eslint configuration for React and NodeJS. This repo enables us to update linting rules without individually updating each of our repos.  
+Edlio's shareable eslint configuration for React and NodeJS. This repo enables
+us to update linting rules without individually updating each of our repos.  
 
 ## Usage
 
@@ -23,7 +24,8 @@ extends:
   - 'edlio/react' # or 'edlio/node' if its a node project
 ```
 
-Add github workflow to automatically check linting with every push using `edlio/eslint-action`
+Add github workflow to automatically check linting with every push using
+`edlio/eslint-action`
 
 ```yml
 # Save to .github/workflows/eslint.yml in your repo
@@ -52,10 +54,20 @@ Add npm script called `lint` in your `package.json`
 }
 ```
 
-Check your code using the new npm script
+Check your code using the new npm script, you should see the report.
 
 ```bash
 npm run lint
 ```
 
-You should see the report. Your IDE should also use eslint to show you errors while you develop. 
+Occasionally you might want to update your `eslint-config-edlio` dependency.
+This update is mainly for you development environment, Github Action will
+always use the latest version of the configuration to lint the code on a Pull
+Request.
+
+```bash
+npm update eslint-config-edlio
+```
+
+Additionally, make sure to setup your IDE, so that It uses .eslintrc.yml file
+to show you real time errors/warning during development.
