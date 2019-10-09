@@ -15,7 +15,7 @@ module.exports = {
     }
   },
   extends: [
-    'edlio/common'
+    'edlio/common',
     'plugin:react/recommended'
   ],
   rules: {
