@@ -22,6 +22,7 @@ module.exports = {
     'react/display-name': 'off',
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
-    'react/jsx-first-prop-new-line': ['error', 'multiline']
+    'react/jsx-first-prop-new-line': ['error', 'multiline'],
+    'react/sort-comp': 'error'
   }
 }
