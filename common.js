@@ -25,6 +25,7 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
+    'max-statements-per-line': 'error',
     'multiline-comment-style': 'error',
     'new-cap': 'error',
     'no-alert': 'error',
