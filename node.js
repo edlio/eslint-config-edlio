@@ -1,5 +1,5 @@
 const restrictedModuleMessage = module => (
-  `${module} module is restricted. If your PR introduces this module as a new dependency please use node-fetch instead; Otherwise do not try to refactor and you can ignore this warning.`
+  `${module} module is restricted. If your PR introduces this module as a new dependency please use node-fetch instead; Otherwise do not try to refactor and ignore this warning.`
 )
 
 module.exports = {
