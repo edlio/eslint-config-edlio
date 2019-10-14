@@ -54,6 +54,7 @@ module.exports = {
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single', 'avoid-escape'],
     'space-before-blocks': 'error',
-    'space-infix-ops': 'error'
+    'space-infix-ops': 'error',
+    'space-in-parens': 'error'
   }
 }
