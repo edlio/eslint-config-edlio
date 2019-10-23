@@ -10,7 +10,6 @@ module.exports = {
     'eslint:recommended'
   ],
   rules: {
-    'arrow-parens': ['error', 'as-needed'],
     'arrow-spacing': 'error',
     'brace-style': 'error',
     'comma-dangle': 'error',
