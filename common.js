@@ -36,7 +36,7 @@ module.exports = {
     }],
     'no-shadow': 'error',
     'no-undef-init': 'error',
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': ['error', { allow: ['_id'] }],
     'no-unused-expressions': 'error',
     'no-var': 'error',
     'object-curly-spacing': ['error', 'always'],
