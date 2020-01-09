@@ -19,9 +19,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'dot-notation': 'error',
     'eol-last': 'error',
-    indent: ['error', 2, {
-      SwitchCase: 1
-    }],
+    'indent': ['error', 2, { 'SwitchCase': 1 }],
     'jsx-quotes': ['error', 'prefer-single'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
@@ -31,9 +29,7 @@ module.exports = {
     'no-alert': 'error',
     'no-console': 'error',
     'no-multi-spaces': 'error',
-    'no-multiple-empty-lines': ['error', {
-      max: 1
-    }],
+    'no-multiple-empty-lines': ['error', { 'max': 1 }],
     'no-shadow': 'error',
     'no-undef-init': 'error',
     'no-underscore-dangle': ['error', { allow: ['_id'] }],
@@ -43,17 +39,15 @@ module.exports = {
     'object-shorthand': 'error',
     'one-var': ['error', 'never'],
     'padding-line-between-statements': ['error',
-      {
-        blankLine: 'always',
-        prev: '*',
-        next: 'block-like'
-      }
+      { blankLine: 'always', prev: '*', next: 'block-like' },
+      { blankLine: 'always', prev: '*', next: 'return' }
     ],
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
     'quote-props': ['error', 'consistent-as-needed'],
     'quotes': ['error', 'single', 'avoid-escape'],
     'space-before-blocks': 'error',
+    'space-in-parens': 'error',
     'space-infix-ops': 'error'
   }
 }
