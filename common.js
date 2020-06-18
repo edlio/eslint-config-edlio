@@ -45,7 +45,7 @@ module.exports = {
     'prefer-arrow-callback': 'error',
     'prefer-const': 'error',
     'quote-props': ['error', 'consistent-as-needed'],
-    'quotes': ['error', 'single', 'avoid-escape'],
+    'quotes': ['error', 'single', 'avoid-escape', {'allowTemplateLiterals': true}],
     'space-before-blocks': 'error',
     'space-in-parens': 'error',
     'space-infix-ops': 'error'
