@@ -1,28 +1,38 @@
 module.exports = {
   env: {
-    browser: true
+    browser: true,
   },
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
-  plugins: ['react'],
+  plugins: ["react"],
   settings: {
     react: {
-      version: 'detect'
-    }
+      version: "detect",
+    },
   },
-  extends: [
-    'edlio/common',
-    'plugin:react/recommended'
-  ],
+  extends: ["edlio/common", "plugin:react/recommended"],
   rules: {
-    'react/display-name': 'off',
-    'react/no-unused-prop-types': 'error',
-    'react/no-unused-state': 'error',
-    'react/jsx-first-prop-new-line': ['error', 'multiline'],
-    'react/sort-comp': 'error'
-  }
-}
+    "react/display-name": "off",
+    "react/no-unused-prop-types": "error",
+    "react/no-unused-state": "error",
+    "react/jsx-first-prop-new-line": ["error", "multiline"],
+    "react/sort-comp": "error",
+    semi: "error",
+    complexity: "error",
+    curly: "error",
+    "id-length": "error",
+    "max-depth": "error",
+    "max-len": ["error", { code: 80 }],
+    "max-lines": [
+      "error",
+      { max: 350, skipBlankLikes: true, skipComments: true },
+    ],
+    "max-params": "error",
+    "comma-dangle": ["error", "always"],
+    "no-nested-ternary": "error",
+  },
+};
