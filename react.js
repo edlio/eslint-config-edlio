@@ -27,10 +27,7 @@ module.exports = {
     "id-length": "error",
     "max-depth": "error",
     "max-len": ["error", { code: 80 }],
-    "max-lines": [
-      "error",
-      { max: 350, skipBlankLikes: true, skipComments: true },
-    ],
+    "max-lines": ["error", 350],
     "max-params": "error",
     "comma-dangle": ["error", "always"],
     "no-nested-ternary": "error",
