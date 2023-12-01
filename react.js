@@ -31,5 +31,6 @@ module.exports = {
     "max-params": "error",
     "comma-dangle": ["error", "always-multiline"],
     "no-nested-ternary": "error",
+    "no-else-return": "error",
   },
 };
