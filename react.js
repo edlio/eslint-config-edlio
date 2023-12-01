@@ -29,7 +29,7 @@ module.exports = {
     "max-len": ["error", { code: 80 }],
     "max-lines": ["error", 350],
     "max-params": "error",
-    "comma-dangle": ["error", "always"],
+    "comma-dangle": ["error", "always-multiline"],
     "no-nested-ternary": "error",
   },
 };
