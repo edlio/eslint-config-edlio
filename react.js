@@ -26,7 +26,7 @@ module.exports = {
     curly: "error",
     "id-length": "error",
     "max-depth": "error",
-    "max-len": ["error", { code: 80 }],
+    "max-len": ["error"],
     "max-lines": ["error", 350],
     "max-params": "error",
     "comma-dangle": ["error", "always-multiline"],
