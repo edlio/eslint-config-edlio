@@ -1,48 +1,28 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: true
   },
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
-  plugins: ["react"],
+  plugins: ['react'],
   settings: {
     react: {
-      version: "detect",
-    },
+      version: 'detect'
+    }
   },
-  extends: ["edlio/common", "plugin:react/recommended"],
+  extends: [
+    'edlio/common',
+    'plugin:react/recommended'
+  ],
   rules: {
-    "react/display-name": "off",
-    "react/no-unused-prop-types": "error",
-    "react/no-unused-state": "error",
-    "react/jsx-first-prop-new-line": ["error", "multiline"],
-    "react/sort-comp": "error",
-    semi: "error",
-    complexity: "error",
-    curly: "error",
-    "id-length": "error",
-    "max-depth": "error",
-    "max-len": [
-      "error",
-      {
-        ignoreComments: true,
-        ignoreTrailingComments: true,
-        ignoreUrls: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-        ignorePattern: "^import .*",
-      },
-    ],
-    "max-lines": ["error", 350],
-    "max-params": "error",
-    "comma-dangle": ["error", "always-multiline"],
-    "no-nested-ternary": "error",
-    "no-else-return": "error",
-    "no-implicit-coercion": "error",
-  },
-};
+    'react/display-name': 'off',
+    'react/no-unused-prop-types': 'error',
+    'react/no-unused-state': 'error',
+    'react/jsx-first-prop-new-line': ['error', 'multiline'],
+    'react/sort-comp': 'error'
+  }
+}
