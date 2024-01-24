@@ -1,18 +1,18 @@
 module.exports = {
   env: {
-    browser: true,
+    browser: true
   },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   plugins: ['react'],
   settings: {
     react: {
-      version: 'detect',
-    },
+      version: 'detect'
+    }
   },
   extends: ['edlio/common', 'plugin:react/recommended'],
   rules: {
@@ -21,5 +21,5 @@ module.exports = {
     'react/no-unused-state': 'error',
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
     'react/sort-comp': 'error',
-  },
-};
+  }
+}
