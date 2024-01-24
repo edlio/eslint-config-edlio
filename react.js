@@ -14,12 +14,15 @@ module.exports = {
       version: 'detect'
     }
   },
-  extends: ['edlio/common', 'plugin:react/recommended'],
+  extends: [
+    'edlio/common',
+     'plugin:react/recommended'
+  ],
   rules: {
     'react/display-name': 'off',
     'react/no-unused-prop-types': 'error',
     'react/no-unused-state': 'error',
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
-    'react/sort-comp': 'error',
+    'react/sort-comp': 'error'
   }
 }
