@@ -16,7 +16,7 @@ module.exports = {
   },
   extends: [
     'edlio/common',
-     'plugin:react/recommended'
+    'plugin:react/recommended'
   ],
   rules: {
     'react/display-name': 'off',
