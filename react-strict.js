@@ -18,7 +18,7 @@ module.exports = {
         ignorePattern: '^import .*',
       },
     ],
-    'max-lines': ['error', 350],
+    'max-lines': ['error', 500],
     'max-params': 'error',
     'comma-dangle': ['error', 'always-multiline'],
     'no-nested-ternary': 'error',
