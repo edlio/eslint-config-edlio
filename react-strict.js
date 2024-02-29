@@ -4,11 +4,17 @@ module.exports = {
     semi: 'error',
     complexity: 'error',
     curly: 'error',
-    'id-length': 'error',
+    'id-length': [
+      'error',
+      {
+        "exceptions": ["l", "e", "_"]
+      }
+    ],
     'max-depth': 'error',
     'max-len': [
       'error',
       {
+        code: 120,
         ignoreComments: true,
         ignoreTrailingComments: true,
         ignoreUrls: true,
